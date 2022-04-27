@@ -1,0 +1,51 @@
+$bg:rgb(157, 173, 218);
+
+@import"body";
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.CF{
+    background-color:$bg;
+    width: 30ppx;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+    overflow: auto;
+    border: blue 5px solid;
+    border-radius: 5%;
+    display: inline-block;
+}
+.CC{
+    background-color:$bg;
+    width: 30ppx;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+    overflow: auto;
+    border: blue 5px solid;
+    border-radius: 5%;
+    display: inline-block;
+}
+.CO{
+    background-color:$bg;
+    width: 30ppx;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+    overflow: auto;
+    border: blue 5px solid;
+    border-radius: 5%;
+    display: inline-block;
+}
+.translate:hover{
+    transform: translate(30px,30px);
+    transition:all 6s ease;
+}
