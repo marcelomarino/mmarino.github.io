@@ -49,3 +49,38 @@ p{
     transform: translate(30px,30px);
     transition:all 6s ease;
 }
+$bgcaja:#000080;
+$bgcaja1: #000080;
+$bgcaja2: #0000ff;
+$bgcaja3:#00ffff;
+$bordo:#ffffff;
+$text: #ffffff;
+
+@mixin cajas($bgcaja){
+    background-color: $bgcaja;
+    width:300 px;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+    overflow: auto;
+    border: 5px solid;
+    border-radius: 5%;
+    display: inline-block;
+    h2{
+        color:$bordo
+    }
+    p{
+        color:$text
+    }
+    .Pasado{
+        @include cajas($bgcaja1)
+    }
+    .Presente{
+        @include cajas($bgcaja2)
+    }
+    .Futuro{
+        @include cajas($bgcaja3)
+    }
+
+}
+
