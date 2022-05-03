@@ -58,4 +58,48 @@ p {
   -webkit-transition: all 6s ease;
   transition: all 6s ease;
 }
+
+h2 {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+}
+
+.Pasado {
+  background-color: #000080;
+  width: 300 px;
+  height: 300px;
+  margin: 5px;
+  padding: 10px;
+  overflow: auto;
+  border: 5px solid;
+  border-radius: 5%;
+  display: inline-block;
+}
+
+.Presente {
+  background-color: #0000ff;
+  width: 300 px;
+  height: 300px;
+  margin: 5px;
+  padding: 10px;
+  overflow: auto;
+  border: 5px solid;
+  border-radius: 5%;
+  display: inline-block;
+}
+
+.Futuro {
+  background-color: #00ffff;
+  width: 300 px;
+  height: 300px;
+  margin: 5px;
+  padding: 10px;
+  overflow: auto;
+  border: 5px solid;
+  border-radius: 5%;
+  display: inline-block;
+}
 /*# sourceMappingURL=estilo.css.map */
