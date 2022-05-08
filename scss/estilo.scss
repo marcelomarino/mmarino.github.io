@@ -1,4 +1,4 @@
-$bg:rgb(157, 173, 218);
+$bg:rgb(248, 250, 252);
 $bgcaja:#240e86;
 $bgcaja1: #000080;
 $bgcaja2: #0000ff;
@@ -16,9 +16,10 @@ h2{
 }
 p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
 }
 .CF{
-    background-color:$bg;
+    background-color:$bgcaja;
     width: 30ppx;
     height: 300px;
     margin: 5px;
@@ -29,7 +30,7 @@ p{
     display: inline-block;
 }
 .CC{
-    background-color:$bg;
+    background-color:$bgcaja1;
     width: 30ppx;
     height: 300px;
     margin: 5px;
@@ -40,7 +41,7 @@ p{
     display: inline-block;
 }
 .CO{
-    background-color:$bg;
+    background-color:$bgcaja2;
     width: 30ppx;
     height: 300px;
     margin: 5px;
@@ -71,13 +72,13 @@ p{
     p{
         color:$text
     }
-    .Pasado{
+    .mision{
         @include cajas($bgcaja1)
     }
-    .Presente{
+    .vision{
         @include cajas($bgcaja2)
     }
-    .Futuro{
+    .valores{
         @include cajas($bgcaja3)
     }
 

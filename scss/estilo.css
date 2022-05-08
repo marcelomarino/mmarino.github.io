@@ -1,5 +1,5 @@
 body {
-  background-color: #9dadda;
+  background-color: #f8fafc;
 }
 
 h1 {
@@ -14,10 +14,11 @@ h2 {
 
 p {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
 }
 
 .CF {
-  background-color: #9dadda;
+  background-color: #240e86;
   width: 30ppx;
   height: 300px;
   margin: 5px;
@@ -29,7 +30,7 @@ p {
 }
 
 .CC {
-  background-color: #9dadda;
+  background-color: #000080;
   width: 30ppx;
   height: 300px;
   margin: 5px;
@@ -41,7 +42,7 @@ p {
 }
 
 .CO {
-  background-color: #9dadda;
+  background-color: #0000ff;
   width: 30ppx;
   height: 300px;
   margin: 5px;
@@ -67,7 +68,7 @@ p {
   color: #ffffff;
 }
 
-.Pasado {
+.mision {
   background-color: #000080;
   width: 300 px;
   height: 300px;
@@ -79,7 +80,7 @@ p {
   display: inline-block;
 }
 
-.Presente {
+.vision {
   background-color: #0000ff;
   width: 300 px;
   height: 300px;
@@ -91,7 +92,7 @@ p {
   display: inline-block;
 }
 
-.Futuro {
+.valores {
   background-color: #00ffff;
   width: 300 px;
   height: 300px;
