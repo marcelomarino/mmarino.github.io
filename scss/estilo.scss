@@ -2,13 +2,14 @@ $bg:rgb(248, 250, 252);
 $bgcaja:#240e86;
 $bgcaja1: #000080;
 $bgcaja2: #0000ff;
-$bgcaja3:#00ffff;
+$bgcaja3:#000080;
 $bordo:#ffffff;
 $text: #ffffff;
 @import"body";
 h1{
     font-family: Arial, Helvetica, sans-serif;
     color:blue;
+    text-align: center;
 }
 h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -19,7 +20,7 @@ p{
     color:white;
 }
 .CF{
-    background-color:$bgcaja;
+    background-color:$bgcaja1;
     width: 30ppx;
     height: 300px;
     margin: 5px;
@@ -30,7 +31,7 @@ p{
     display: inline-block;
 }
 .CC{
-    background-color:$bgcaja1;
+    background-color:$bgcaja3;
     width: 30ppx;
     height: 300px;
     margin: 5px;
@@ -81,5 +82,17 @@ p{
     .valores{
         @include cajas($bgcaja3)
     }
-
+.contenedor{
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    background: rgb(131,58,180);
+    background: -moz-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.639093137254902) 0%, rgba(252,176,69,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.639093137254902) 0%, rgba(252,176,69,1) 100%);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.639093137254902) 0%, rgba(252,176,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1);
+    }
 

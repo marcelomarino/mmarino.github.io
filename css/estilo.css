@@ -1,3 +1,4 @@
+/* Propiedades otorgadas a la pagina principal y pagina de servicios /nosotros */
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -5,7 +6,7 @@ footer{
    background-color:rgb(4, 4, 59);
 }
 .anchofooter{
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: center;
 }
 .bg-lav{
@@ -60,32 +61,6 @@ footer{
     transform: translate(30px,30px);
     transition: all 6s ease;
     }
-.NS{
-    color: blue;
-   text-align: center;
-}
-.Clientes1{
-    color: blue;
-}
-.Nos{
-    color: blue;
-    text-align: center;
-}    
-.Noso{
-    color: blue;
-    text-align: center;
-}
-.Principal2{
-    width: 80%;
-    height:40vh;
-    margin: 20px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:1fr;
-    grid-template-areas:
-    "Pasado Presente Futuro";
-    gap: 10px;
-}
 .mision{
     background-color:rgb(210, 210, 230);
     width:300px;
@@ -123,3 +98,5 @@ h1{
     color: rgb(14, 89, 124);
     text-align: center;    
 }
+
+
